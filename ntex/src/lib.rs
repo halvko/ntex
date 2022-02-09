@@ -6,6 +6,7 @@
 //! * `rustls` - enables ssl support via `rustls` crate
 //! * `compress` - enables compression support in http and web modules
 //! * `cookie` - enables cookie support in http and web modules
+//! * `glommio`, `tokio` or `async-std` - selects the corresponding async executor (only choose one)
 #![warn(
     rust_2018_idioms,
     unreachable_pub,
